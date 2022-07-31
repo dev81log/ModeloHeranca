@@ -1,2 +1,2 @@
 # ModeloHeranca
-    Herança estudos simples de login
+    Estudos simples de login aplicando herança
