@@ -14,15 +14,15 @@ namespace Heranca
             Password = password;
         }
 
-        public void ChekingLogin()
+        public void CheckingLogin(string UserEmail, string UserPassword)
         {
-            if (Email == GetEmail() && Password == GetPassword())
+            if (Email == UserEmail && Password == UserPassword)
             {
-                Console.WriteLine("Login realizado com sucesso!");
+                Console.WriteLine("Login Successful!");
             }
             else
             {
-                Console.WriteLine("Login inválido!");
+                Console.WriteLine("Login Failed!");
             }
         }
 
